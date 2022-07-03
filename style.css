@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+
+
+/*LAYOUT*/
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+/*CABEÇALHO*/
+
+#contato {
+    background: #0D4D97;
+}
+
+#contato a {
+    color: white;
+}
+
+#cabecalho {
+    margin-top: 60px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#cabecalho a{
+    color: #25252599;
+    font-weight: 700!important;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    font-size: 15px;
+    transition: all ease 0.5s;
+    padding: 10px 15px;
+}
+
+#cabecalho a:hover{
+    color: #0D4D97;
+}
+
+button.btn.ml-4.botao{
+    background-color: white;
+    color: #0D4D97!important;
+    border: 1px solid #0D4D97!important;
+}
+
+button.btn.ml-4.botao:hover{
+    background-color: #0D4D97;
+    color: white!important;
+    border: 1px solid #0D4D97!important;
+}
+
+#capa {
+    padding: 10px;
+    height: 650px;
+    background: url(img/capa.png) no-repeat;    
+}
+
+/*========================================================== ARRUMAR - CENTRALIZAR==============================================*/
+
+/*CAPA*/
+
+#capa .container {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#capa .container h2{
+    font-size: 50px;
+    font-weight: 700;
+    width: 525px;
+    margin-bottom: 30px;
+}
+
+#capa .container h6{
+    font-size: 15px;
+    font-weight: 400;
+    width: 525px;
+    margin-bottom: 60px;
+}
+
+#capa .container input{
+    width: 300px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+}
+
+#capa .container input:hover{
+    background: white;
+    color: #0D4D97;
+}
+
+/*WHATSAPP
+{
+    position: absolute;
+}*/
+
+/*PRODUTOS*/
+
+#produtos {
+    height: 1120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#produtos .fundo {
+    margin-top: 300px;
+    background: #0D4D97;
+    height: 640px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#produtos .titulo {
+    color: #0D4D97;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+#produtos .titulo h4{
+    font-weight: 700;
+}
+
+#produtos .titulo h3{
+    font-weight: 900;
+}
+
+#produtos .card {
+    padding: 20px 0;
+    position: relative;
+    margin: 10px 0;
+}
+
+#produtos .card h6 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #6D6D6D;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#produtos .card h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #0D4D97;
+    text-transform: uppercase;
+}
+
+#produtos .card a{
+    margin: 40px 0 0 0;
+}
+
+#produtos .btn {
+    background: #0D4D97;
+    color: white;
+    width: 202px;
+    transition: all ease 0.5s;
+}
+
+#produtos .btn:hover {
+    background: white;
+    color: #0D4D97;
+}
+
+.pecas {    
+    width: 202px;
+    height: 202px;  
+    padding: 40px; 
+}
+
+
+/*SOBRE*/
+
+#conteudo-sobre {
+    background-color: #0D4D97;
+    height: 500px;
+    color: white;
+    margin-top: 130px;
+}
+
+#conteudo-sobre h6 {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#conteudo-sobre h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#conteudo-sobre p {
+    font-size: 14px;
+}
+
+
+.img-manutencao {
+    height: 500px;
+    width: 900px;
+    margin-left: -20px;
+}
+
+
+#conteudo-sobre input.btn {
+    background-color: #0D4D97!important;
+    border: 1px solid white!important;
+    color: white!important;
+    transition: all ease 0.5s;
+}
+
+#conteudo-sobre input.btn:hover {
+    background-color: white!important;
+    border: 1px solid #0D4D97!important;
+    color: #0D4D97!important;
+}
+
+
+/*REPRESENTANTES*/
+
+.img-representantes {
+    margin-top: 25%;
+    padding: 30px 250px;
+    height: 705px;
+    width: 1011.7px;
+    border-radius: 260px;
+}
+
+#representantes .fundo-representantes{
+    background: #0D4D97;
+    height: 1071px;
+    width: 645px;
+}
+
+#representantes h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #0D4D97;
+} 
+
+#representantes h6 {
+    font-weight: 500;
+}
+
+
+/*FORMULÁRIO*/
+
+#conteudo-formulario {
+    height: 645px;   
+}
+
+#conteudo-formulario .form-inline .form-control {
+    width: 47.5%;
+}
+
+
+#conteudo-formulario h2 {
+    font-weight: 700;
+    color: #0D4D97;
+}
+
+input.btn.btn-block{
+    background-color: #0D4D97!important;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+input.btn.btn-block:hover{
+    background-color: white!important;
+    border: 1px solid #0D4D97;
+    color: #0D4D97;
+}
+
+
+
+/*RODAPÉ*/
+
+footer {
+    background: #0D4D97;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
+
+
+/*TIPOGRAFIA*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0D4D97;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 3em!important;
+    }    
+
+    .btn-custom {
+        margin: 10px 10px;
+        padding: 8px 8px!important;
+        font-size: 1em!important;
+    }  
+   
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+        font-size: 3em!important;
+    }
+
+    .btn-custom {
+        margin: 10px 10px;
+        padding: 10px 10px;
+        font-size: 1.1em!important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 4em!important;
+    }            
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{
+        font-size: 5em!important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+
+    h1{
+        font-size: 6em!important;
+    }
+}
